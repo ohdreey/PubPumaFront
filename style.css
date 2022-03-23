@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap');
+:root {
+  --bgcolor: linear-gradient(
+    90deg,
+    rgba(11, 11, 31, 1) 0%,
+    rgba(16, 6, 18, 1) 100%
+  );
+  --text-color-light: rgb(240, 235, 235);
+
+  --body-font: 'Signika', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  width: auto;
+}
+/* Signika typo alternative à Geogrotesque */
+
+body {
+  background: var(--bgcolor);
+  font-family: var(--body-font);
+}
+
+/* style block qui est visible */
+.bottomContainer {
+  position: fixed;
+  bottom: 0;
+}
+
+.chevron {
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+/* animation sautillante chevron */
+.chevronImg {
+  width: 10%;
+  animation: down 1s infinite linear alternate;
+  margin-bottom: 2%;
+}
+@keyframes down {
+  0% {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+  }
+  50% {
+    position: relative;
+    top: 15px;
+    opacity: 0.5;
+  }
+  100% {
+    position: relative;
+    top: 30px;
+    opacity: 1;
+  }
+}
+.ctaText {
+  font-size: 5em;
+}
+.containerRound {
+  width: 100vw; /* Le parent fait la largeur de l'écran et l'enfant fera la largeur du parent */
+  height: 6vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+header img {
+  width: 100%;
+}
+
+.imgDeo {
+  width: 100%;
+  margin-top: 25%;
+}
+
+.roundFooter {
+  width: 100%;
+  border-radius: 100% 100%;
+  height: 15vh;
+  /* border-radius: 50% 50% 0% 0%; */
+  background: linear-gradient(
+    90deg,
+    rgba(171, 141, 88, 1) 0%,
+    rgba(249, 221, 175, 1) 27%,
+    rgba(171, 141, 88, 1) 55%,
+    rgba(249, 221, 175, 1) 100%
+  );
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.videoContenair {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+}
+
+#videoBody {
+  object-fit: cover;
+  /* height: 100%; */
+  width: 110%;
+  transition: opacity 2s;
+}
+
+/* style block qui est invisible */
+
+/* .bottomContainerHidden {
+  position: absolute;
+  bottom: 20%;
+}*/
+
+.ctaTextHidden {
+  font-size: 5em;
+}
+.bottomContenairHidden {
+  display: none;
+}
+.containerRoundHidden {
+  /* position: absolute;*/
+}
+.roundFooterHidden {
+  width: 100%;
+  border-radius: 100% 100%;
+  height: 15vh;
+  /* border-radius: 50% 50% 0% 0%; */
+  background: linear-gradient(
+    90deg,
+    rgba(171, 141, 88, 1) 0%,
+    rgba(249, 221, 175, 1) 27%,
+    rgba(171, 141, 88, 1) 55%,
+    rgba(249, 221, 175, 1) 100%
+  );
+  top: 0;
+  z-index: -1;
+} /* footer {
+  position: fixed;
+  bottom: 0;
+}*/

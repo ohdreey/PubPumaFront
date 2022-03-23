@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Puma</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/Inter_PUMA.png" />
+    </header>
+    <div class="videoContenair">
+      <video
+        id="videoBody"
+        controls
+        autoplaytype="video/mp4"
+        allowfullscreen
+        autoplay
+        loop
+        muted
+        controls
+        src="./assets/video.mp4"
+      ></video>
+    </div>
+  </body>
+  <footer>
+    <div class="bottomContenair">
+      <img class="imgDeo" src="./assets/Inter_PUMA(1).png" />
+      <!--Bloc visible -->
+
+      <div class="chevron">
+        <img class="chevronImg" src="./assets/chevron.png" />
+      </div>
+      </div>
+      <div class="containerRound">
+        <div class="ctaText" id="ctaText1" onClick="fadeOut()">EN PROFITER</div>
+        <div class="roundFooter"></div>
+      </div>
+    </div>
+    <!--Bloc caché qui va remonter au click -->
+
+    <div class="bottomContenairHidden" id="moved">
+      <div class="imgHidden">
+      <img class="imgDeo" src="./assets/Inter_PUMA(1).png" />
+    </div>
+ 
+    <div class="containerRoundHidden">
+        <div class="ctaTextHidden" id="ctaText1">J'Y VAIS</div>
+        <div class="roundFooterHidden">
+
+        </div>
+    </div>
+    
+    
+  </footer>
+
+  <script type="text/javascript" src="./index.js"></script>
+</html>
