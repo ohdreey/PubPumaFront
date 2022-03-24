@@ -25,6 +25,12 @@
 <h2> Le challenge </h2>
 
 <p>Réaliser un format publicitaire animé en HTML CSS JS vanilla.</p>
+<br/>
+
+<h2>Dans le répertoire du projet, vous pouvez exécuter :</h2>
+<p>npm install</p>
+ <p>npm start</p>
+<p>Ces commandes installent les dépendances et démarrent l'application en mode développement.</p>
 
 <h2>Captures d'écran</h2>
 
