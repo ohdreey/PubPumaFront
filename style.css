@@ -23,7 +23,6 @@ body {
   font-family: var(--body-font);
 }
 
-/* style block qui est visible */
 .bottomContainer {
   position: fixed;
   bottom: 0;
@@ -67,17 +66,71 @@ body {
   overflow: hidden;
   position: relative;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
 }
 
+.coord {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(100%);
+  transition-duration: 0.5s;
+  overflow: hidden;
+  width: 100%;
+  /* padding-top: %; */
+}
+
+.coord h1,
+h2 {
+  color: var(--text-color-light);
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
 header img {
   width: 100%;
 }
 
+.holderAnimTop {
+  z-index: 3;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  transform: translateY(100px);
+  transition-duration: 0.5s;
+}
+
+#imgContenair {
+  padding-top: 25%;
+  transition: all 0.5s;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .imgDeo {
   width: 100%;
-  margin-top: 25%;
+  padding-top: 3%;
+}
+
+.mapContenair {
+  width: 40vw;
+  height: 40vw;
+  border-radius: 100%;
+  overflow: hidden;
 }
 
 .roundFooter {
@@ -97,7 +150,7 @@ header img {
   z-index: -1;
 }
 
-.videoContenair {
+#videoContenair {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -110,38 +163,3 @@ header img {
   width: 110%;
   transition: opacity 2s;
 }
-
-/* style block qui est invisible */
-
-/* .bottomContainerHidden {
-  position: absolute;
-  bottom: 20%;
-}*/
-
-.ctaTextHidden {
-  font-size: 5em;
-}
-.bottomContenairHidden {
-  display: none;
-}
-.containerRoundHidden {
-  /* position: absolute;*/
-}
-.roundFooterHidden {
-  width: 100%;
-  border-radius: 100% 100%;
-  height: 15vh;
-  /* border-radius: 50% 50% 0% 0%; */
-  background: linear-gradient(
-    90deg,
-    rgba(171, 141, 88, 1) 0%,
-    rgba(249, 221, 175, 1) 27%,
-    rgba(171, 141, 88, 1) 55%,
-    rgba(249, 221, 175, 1) 100%
-  );
-  top: 0;
-  z-index: -1;
-} /* footer {
-  position: fixed;
-  bottom: 0;
-}*/
