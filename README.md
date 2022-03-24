@@ -25,4 +25,9 @@
 <h2> Le challenge </h2>
 
 <p>Réaliser un format publicitaire animé en HTML CSS JS vanilla.</p>
-</br>![Capture d’écran 2022-03-24 à 10 50 12](https://user-images.githubusercontent.com/82833380/159889869-6b6cc9a1-5b88-45a4-9b11-c7ba093a5680.png)
+
+<h2>Captures d'écran</h2>
+
+</br>
+
+![Capture d’écran 2022-03-24 à 10 50 12](https://user-images.githubusercontent.com/82833380/159889869-6b6cc9a1-5b88-45a4-9b11-c7ba093a5680.png)
