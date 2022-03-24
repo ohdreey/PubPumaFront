@@ -29,6 +29,5 @@
 <h2>Captures d'écran</h2>
 
 </br>
-
-![Capture d’écran 2022-03-24 à 10 50 12](https://user-images.githubusercontent.com/82833380/159889869-6b6cc9a1-5b88-45a4-9b11-c7ba093a5680.png)
-![Capture d’écran 2022-03-24 à 10 50 23](https://user-images.githubusercontent.com/82833380/159890129-95949adc-c797-48fb-98de-80452ebf7020.png)
+![Capture d’écran 2022-03-24 à 10 50 12](https://user-images.githubusercontent.com/82833380/159890521-a5c20d49-20dd-450f-88cd-1542d72a17f0.png)
+![Capture d’écran 2022-03-24 à 10 50 23](https://user-images.githubusercontent.com/82833380/159890530-9841d9c0-e3ea-4251-ba61-1f96a30e0305.png)
